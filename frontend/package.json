@@ -9,11 +9,11 @@
     "npm": "^8.0.0 || ^9.0.0"
   },
   "scripts": {
-    "start": "npx react-scripts start",
-    "build": "npx react-scripts build",
+    "start": "node node_modules/react-scripts/scripts/start.js",
+    "build": "node node_modules/react-scripts/scripts/build.js",
     "build:prod": "npm install && npm run build",
-    "test": "npx react-scripts test",
-    "eject": "npx react-scripts eject"
+    "test": "node node_modules/react-scripts/scripts/test.js",
+    "eject": "node node_modules/react-scripts/scripts/eject.js"
   },
   "dependencies": {
     "autoprefixer": "^10.4.22",
