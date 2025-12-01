@@ -4,9 +4,14 @@
   "description": "AI dating website frontend",
   "type": "module",
   "main": "src/index.tsx",
+  "engines": {
+    "node": "^18.0.0",
+    "npm": "^8.0.0 || ^9.0.0"
+  },
   "scripts": {
     "start": "npx react-scripts start",
-    "build": "npx react-scripts build --legacy-peer-deps",
+    "build": "npx react-scripts build",
+    "build:prod": "npm install && npm run build",
     "test": "npx react-scripts test",
     "eject": "npx react-scripts eject"
   },
