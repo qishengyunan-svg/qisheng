@@ -1,0 +1,5 @@
+{
+  "name": "SoulMatch - AI Promotion",
+  "description": "A modern dating application featuring AI-powered profile generation and matching logic. Built with React, Tailwind, and Google Gemini.",
+  "requestFramePermissions": []
+}
